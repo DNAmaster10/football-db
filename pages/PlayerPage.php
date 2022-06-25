@@ -4,6 +4,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script src="jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="./PlayerPage.css">
   </head>
   <body>
