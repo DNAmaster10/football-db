@@ -151,4 +151,5 @@
       <div class="clearfix"></div>
     </div>
   </body>
+  <script src="./PlayerPage.js"></script>
 </html>
