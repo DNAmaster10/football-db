@@ -1,5 +1,7 @@
-var select = function(s) {
-  return document.querySelector(s);
+var select = function(s) 
+{
+    "use strict";
+    return document.querySelector(s);
 }
 
 function randomBetween(min,max)
