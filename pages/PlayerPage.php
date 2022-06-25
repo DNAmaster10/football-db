@@ -1,5 +1,8 @@
 <?php
+include $_SERVER["DOCUMENT_ROOT"]."/includes/dbh.php";
 
+$player_f = "Seb";
+$player_l = "Clarke";
 ?>
 <!DOCTYPE html>
 <html>
@@ -48,7 +51,7 @@
             <div class="clearfix"></div>
     </div>
           <div class="name-wrapper">
-            <h1>John <br/>Anderson</h1><!-- YOUR NAME AND LAST NAME  -->
+            <h1><?php echo ($player_f); ?><br/><?php echo ($player_l); ?></h1><!-- YOUR NAME AND LAST NAME  -->
           </div>
           <div class="clearfix"></div>
           <div class="contact-info clearfix">
