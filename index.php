@@ -5,7 +5,7 @@
   </head>
   <body>
     <p>This is a test</p>
-    <form action="/pages/playerpage.php">
+    <form action="/pages/PlayerPage.php">
       <input type="submit" value="Player page">
     </form>
   </body>
