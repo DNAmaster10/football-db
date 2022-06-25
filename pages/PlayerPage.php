@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="jquery-3.6.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="stylesheet" href="./PlayerPage.css">
   </head>
   <body>
