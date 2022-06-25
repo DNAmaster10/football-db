@@ -15,6 +15,7 @@ except mariadb.Error as e:
     print ("Could not connect to the database")
     sys.exit(1)
 
+cur = conn.cursor()
 statement = "SELECT firstname,lastname,link FROM player_links"
 conn.commit()
 cur.execute(statement)
