@@ -17,9 +17,7 @@ except mariadb.Error as e:
 
 while 1 == 1:
     theurl = input ("Enter the link to the team: ")
-    theurl = "https://fbref.com/en/squads/18bb7c10/Arsenal-Stats"
-    tableID = input ("Enter the table ID: ")
-    tableID = "stats_standard_11160"
+    tableID = ("stats_standard_11160")
     thepage = urllib.request.urlopen(theurl)
     soup = BeautifulSoup(thepage)
     table = soup.find_all("table", {"id" : tableID})
@@ -28,7 +26,7 @@ while 1 == 1:
         for tag in tdTags:
             player = (tag.text)
             print (player)
-            player = player.split(" ")
+            player = player.split(" ", 1)
             if (len(player) > 1):
                 player_f = player[0]
                 player_l = player[1]
